@@ -1,5 +1,5 @@
 import React from 'react'
-import gallery1 from './pics/gallery1.png'
+import gallery1 from './Pics/gallery1.png'
 import gallery2 from './Pics/gallery2.png'
 import gallery3 from './Pics/gallery3.png'
 import gallery4 from './Pics/gallery4.png'
