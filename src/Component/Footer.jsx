@@ -1,5 +1,5 @@
 import React from 'react'
-import footer from "./pics/footer_4.jpg"
+import footer from "./pics/footer4.jpg"
 import logo from "./pics/Logo.png"
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import XIcon from '@mui/icons-material/X';
