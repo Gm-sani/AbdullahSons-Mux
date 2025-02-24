@@ -1,5 +1,5 @@
 import React from 'react'
-import OverViewPic6 from './pics/OverViewPic6.jpg'
+import OverViewPic6 from './Pics/OverViewPic6.jpg' 
 import { useNavigate } from 'react-router-dom';
 
 export default function IntroPage(props) {

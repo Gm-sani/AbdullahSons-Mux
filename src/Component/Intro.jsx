@@ -1,7 +1,7 @@
 import React from 'react'
-import since from './pics/Since.png'
-import hndshk from './pics/handShake.png'
-import intropic from './pics/IntroMilitaryPic.jpg'
+import since from './Pics/Since.png'
+import hndshk from './Pics/handShake.png'
+import intropic from './Pics/IntroMilitaryPic.jpg'
 export default function Intro() {
   return (
     <div className=''>

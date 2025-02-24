@@ -1,9 +1,9 @@
 import React from 'react'
-import hndshk from './pics/handShake.png'
-import growingGraph from './pics/growingGraph.png'
-import chat from './pics/chat.png'
-import plane from './pics/plane.png'
-import choosepic from './pics/choosePic.jpg'
+import hndshk from './Pics/handShake.png'
+import growingGraph from './Pics/growingGraph.png'
+import chat from './Pics/chat.png'
+import plane from './Pics/plane.png'
+import choosepic from './Pics/choosePic.jpg'
 
 export default function WhyChooseUs() {
   return (

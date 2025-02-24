@@ -1,10 +1,10 @@
 import React from 'react'
 import gallery1 from './pics/gallery1.png'
-import gallery2 from './pics/gallery2.png'
-import gallery3 from './pics/gallery3.png'
-import gallery4 from './pics/gallery4.png'
-import gallery5 from './pics/gallery5.png'
-import gallery6 from './pics/gallery6.png'
+import gallery2 from './Pics/gallery2.png'
+import gallery3 from './Pics/gallery3.png'
+import gallery4 from './Pics/gallery4.png'
+import gallery5 from './Pics/gallery5.png'
+import gallery6 from './Pics/gallery6.png'
 
 export default function Gallery() {
   return (

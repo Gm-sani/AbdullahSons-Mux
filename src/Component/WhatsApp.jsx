@@ -1,6 +1,6 @@
 
 import React from 'react'
-import whatsapppic from './pics/whatsapp1.png'
+import whatsapppic from './Pics/whatsapp1.png'
 
 export default function WhatsApp() {
   return (
