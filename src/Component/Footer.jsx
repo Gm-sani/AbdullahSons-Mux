@@ -1,5 +1,5 @@
 import React from 'react'
-import footer from "./pics/footer4.jpg"
+import footerPic from "./pics/footer4.jpg" 
 import logo from "./pics/Logo.png"
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import XIcon from '@mui/icons-material/X';
@@ -13,7 +13,7 @@ export default function Footer() {
     <div className='md:block hidden mt-4'>
     {/* -----------------------------------backpic----------------------------- */}
     <div className='absolute'>
-        <img src={footer} alt="" className='h-[68vh] w-[100vw] opacity-90'/>
+        <img src={footerPic} alt="" className='h-[68vh] w-[100vw] opacity-90'/>
         </div>
 {/* ---------------------------------Front pic-------------------------------------- */}
     <div className=' absolute'>

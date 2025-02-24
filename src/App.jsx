@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Component/Navbar'
 import Home from './Component/Home'
 import Footer from './Component/Footer'
@@ -11,10 +11,23 @@ import {
   Route
 } from "react-router-dom";
 import Event from './Component/Event'
+import Splash from './Component/Splash'
 
 // import './App.css'
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Splash screen will be visible for 3 seconds
+  }, []);
+
+  if (loading) {
+    return <Splash />;
+  }
  
 
   return (
