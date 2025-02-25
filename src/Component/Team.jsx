@@ -30,7 +30,7 @@ export default function Team() {
           <img src={Team2} alt="servicepic1" className=' lg:h-[22rem] md:h-[12rem] lg:w-[fit] rounded-3xl lg:mt-0 mt-[6rem]'/>
           <div className='p-6 bg-white lg:ml-[1rem] ml-[6rem] text-center absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg'>
               <p className='text-[1.2rem]  font-serif '>Mr.Abdul Ghani Shah</p>
-              <p className='text-xl cursor-pointer text-[0.9rem] text-slate-700'>CEO</p>
+              <p className='text-xl cursor-pointer text-[0.9rem] text-slate-700'>Managing Partner</p>
           </div>
       </div>
         {/* ----------------------------------team 1---------------------- */}
