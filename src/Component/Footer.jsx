@@ -13,7 +13,7 @@ export default function Footer() {
     <div className='md:block hidden mt-4'>
     {/* -----------------------------------backpic----------------------------- */}
     <div className='absolute'>
-        <img src={footerPic} alt="" className='h-[30rem] w-[100vw] '/>
+        <img src={footerPic} alt="" className='h-[75vh] w-[100vw] '/>
         </div>
 {/* ---------------------------------Front pic-------------------------------------- */}
     <div className=' absolute'>

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from './Pics/Logo.png'
+import logo from './Pics/Logo2.png' 
 import gsap from 'gsap';
 
 
