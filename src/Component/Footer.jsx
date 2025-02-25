@@ -1,6 +1,6 @@
 import React from 'react'
 import footerPic from "./Pics/footer4.jpg" 
-import logo from "./Pics/Logo.png"
+import logo from "./Pics/Logo2.png" 
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -13,13 +13,13 @@ export default function Footer() {
     <div className='md:block hidden mt-4'>
     {/* -----------------------------------backpic----------------------------- */}
     <div className='absolute'>
-        <img src={footerPic} alt="" className='h-[68vh] w-[100vw] opacity-90'/>
+        <img src={footerPic} alt="" className='h-[30rem] w-[100vw] '/>
         </div>
 {/* ---------------------------------Front pic-------------------------------------- */}
     <div className=' absolute'>
-     <div className='flex  gap-[5.5rem] pt-12 justify-between'>
+     <div className='flex  pt-12 gap-24'>
         {/* ----------------------------------Intro------------------------------------------- */}
-     <div className='ml-9'> 
+     <div className='ml-20'> 
             <img src={logo} alt="" onClick={()=>{console.log("home")}} className='h-[7rem] cursor-pointer'/>
             {/* <p className='text-[1.1rem] text-white font-semibold tracking-tighter mt-5 w-44'>
             Is working since 2009 and serve the nation with many services. We are putting our best with our dedication and sincerity.
@@ -88,7 +88,7 @@ export default function Footer() {
      {/* ------------------------------------list end------------------------------ */}
      <p className='text-[1.5rem] ml-9 mt-12  text-gray-200 font-semibold '>Do you have questions or want more</p>
      <p className='text-[1.5rem] ml-9  text-gray-200 font-semibold border-b border-white '>information? Contact us now</p>
-     <div className='flex justify-between'>
+     <div className='flex justify-between '>
         <div>
         <p className='text-[0.9rem] text-gray-200 ml-9 pt-2 pb-2 cursor-pointer'>Copyright © 2025 abdullahsons All rights reserved.</p>
         </div>
