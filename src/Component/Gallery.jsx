@@ -1,10 +1,10 @@
 import React from 'react'
-import gallery1 from './Pics/gallery1.png'
-import gallery2 from './Pics/gallery2.png'
-import gallery3 from './Pics/gallery3.png'
-import gallery4 from './Pics/gallery4.png'
-import gallery5 from './Pics/gallery5.png'
-import gallery6 from './Pics/gallery6.png'
+import gallery1 from './Pics/Dukan1.jpg'
+// import gallery2 from './Pics/gallery2.png'
+// import gallery3 from './Pics/gallery3.png'
+// import gallery4 from './Pics/gallery4.png'
+// import gallery5 from './Pics/gallery5.png'
+// import gallery6 from './Pics/gallery6.png'
 
 export default function Gallery() {
   return (
@@ -15,14 +15,14 @@ export default function Gallery() {
     <div className=''>
         <img src={gallery1} alt="gallery1" className='rounded-2xl h-[23rem]'/>
     </div>
-    <div className='lg:my-0 my-6'>
+    {/* <div className='lg:my-0 my-6'>
         <img src={gallery2} alt="gallery2" className='rounded-2xl h-[23rem]'/>
     </div>
     <div>
         <img src={gallery3} alt="gallery3" className='rounded-2xl h-[23rem]'/>
-    </div>
+    </div> */}
 </div>
-<div className='lg:flex md:flex-row justify-center gap-10 mt-8 lg:mx-0 mx-[5rem]'>
+{/* <div className='lg:flex md:flex-row justify-center gap-10 mt-8 lg:mx-0 mx-[5rem]'>
     <div >
         <img src={gallery4} alt="gallery4" className='rounded-2xl h-[23rem]'/>
     </div>
@@ -32,7 +32,7 @@ export default function Gallery() {
     <div>
         <img src={gallery6} alt="gallery6" className='rounded-2xl h-[23rem]'/>
     </div>
-</div>
+</div> */}
 </div>
   )
 }
