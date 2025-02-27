@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from './Pics/Logo2.png' 
+import logo from './Pics/AB logo.png' 
 import { useNavigate } from 'react-router-dom';
 
 import gsap from 'gsap';
@@ -86,7 +86,7 @@ export default function Navbar() {
 {/* ----------------------------------low navbar------------------------------------------------- */}
 <div className='lg:px-12 px-8 lg:flex md:flex-row  gap-[10.3rem]'>
     <div >
-        <img onClick={()=>{navigate("/")}} src={logo} alt="logo" id='logo' className=' lg:ml-2 mx-auto  cursor-pointer opacity-5 h-[7.5rem]'/>
+        <img onClick={()=>{navigate("/")}} src={logo} alt="logo" id='logo' className='my-2 lg:ml-2 mx-auto  cursor-pointer opacity-5 h-[7.5rem]'/>
     </div>
     <div id='lownav' className='flex gap-16 lg:text-[1.15rem] text-xs pt-[3.2rem] font-light opacity-0'>
         <div onClick={()=>{navigate("Overview")}}  className='cursor-pointer h-1  '>Comapny Overview </div>
