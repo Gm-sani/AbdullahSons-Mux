@@ -20,7 +20,7 @@ export default function Team() {
           </div>
       </div>
             {/* ----------------------------------end pic ceo-------------------- */}
-            <div className='bg-white p-5 hover:border-b-4 hover:border-b-red-600 shadow-xl'>
+            <div className='bg-white p-5 hover:border-b-4 hover:border-b-red-600 shadow-xl md:block hidden'>
             <p className='text-[0.85rem] text-red-600 tracking-wider font-semibold  mt-4'>CEO Message</p>
             <p className='text-[1.4rem] font-semibold mt-2  '>Experts in High-Quality Rubber Seals for Superior Performance</p>
             {/* ----------------------------1------------------------------- */}
