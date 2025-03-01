@@ -1,37 +1,31 @@
-import React from 'react'
-import Slider1 from './Pics/Slider_1.jpg'
-import Slider2 from './Pics/Slider_2.png'
-import Slider3 from './Pics/Slider_3.jpg'
-import Slider4 from './Pics/Slider_4.png'
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react'
+import slider1 from "./Pics/Slider1pic.jpg"
+import slider2 from "./Pics/Slider2pic.jpg"
+import slider3 from "./Pics/Slider3pic.jpg"
+import slider4 from "./Pics/Slider4pic.jpg"
+import slider5 from "./Pics/Slider5pic.jpg"
+import slider6 from "./Pics/Slider6pic.jpg"
 
 export default function Slider() {
-  const navigate =useNavigate();
+    const [selected, setSelected] = useState(0);
+    const images = [slider1, slider2, slider3, slider4, slider5, slider6];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setSelected((prevSelected) => (prevSelected < images.length - 1 ? prevSelected + 1 : 0));
+        }, 5000);
+
+        // Cleanup function to prevent memory leaks
+        return () => clearInterval(interval);
+    }, []); // Ensure it runs once on mount
+    //   ----------------------------------------------------------------------------------
 
   return (
-    <div>
-        {/* outer main div */}
-      <div className='lg:flex flex-row justify-center  mx-4 lg:mt-0 mt-12' onClick={()=>{navigate("Services")}}>
-        {/* ---------------slider 1------------------- */}
-            <div>
-                <img src={Slider1} alt="" className='lg:h-[90vh] h-[25vh] lg:w-[23vw] w-[95vw] opacity-80 hover:opacity-100 hover:cursor-pointer' />
-            </div>
-        {/* ---------------slider 2------------------- */}
-
-            <div>
-                <img src={Slider2} alt="" className='lg:h-[90vh] h-[25vh] lg:w-[23vw] w-[95vw] opacity-80 hover:opacity-100 hover:cursor-pointer' />
-            </div>
-        {/* ---------------slider 3------------------- */}
-
-            <div>
-                <img src={Slider3} alt="" className='lg:h-[90vh] h-[25vh] lg:w-[23vw] w-[95vw] opacity-80 hover:opacity-100 hover:cursor-pointer' />
-            </div>
-        {/* ---------------slider 4------------------- */}
-
-            <div>
-                <img src={Slider4} alt="" className='lg:h-[90vh] h-[25vh] lg:w-[23vw] w-[95vw] opacity-80 hover:opacity-100 hover:cursor-pointer' />
-            </div>
-      </div>
+    <div className='mt-4'>
+    <div className='object-cover mx-6'>
+    <img src={images[selected]} alt="Slider images" className='lg:h-[100vh] w-[100vw]    '/>
     </div>
+  
+</div> 
   )
 }
