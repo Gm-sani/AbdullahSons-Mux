@@ -45,19 +45,19 @@ export default function Navbar() {
     <div className='lg:flex justify-between md:flex-row lg:px-7 px-2 bg-black text-white p-2 '>
       <div className='flex gap-2 '>
         <div> 
-            <DialpadIcon className="p-[0.15rem] text-red-500"/>
+            <DialpadIcon className="p-[0.15rem] text-[#760422]"/>
         </div>
         <div className='py-[0.15rem] text-[0.93rem] font-mono'>HELP DESK :</div>
         <div className='py-[0.15rem] text-[0.93rem] font-semibold tracking-tighter'>+92-308-7397758 </div>
       </div>
 
       <div className='flex'>
-      <TimerTwoToneIcon className="p-[0.15rem] text-red-500 "/>
+      <TimerTwoToneIcon className="p-[0.15rem] text-[#760422] "/>
       <div className='py-[0.15rem] text-[0.90rem] font-semibold tracking-tighter'>Saturday - Thrusday 09:00 am - 06:00 Pm</div>
       </div>
 
       <div className='flex '>
-      <FmdGoodIcon className="p-[0.15rem] text-red-500"/>
+      <FmdGoodIcon className="p-[0.15rem] text-[#760422]"/>
       <div className='py-[0.15rem] text-[0.90rem] font-semibold tracking-tighter'>Head Office: 5-A , Saddique Center , Akbar Road, Chowk Shaheedan , Multan</div>
       </div>
       

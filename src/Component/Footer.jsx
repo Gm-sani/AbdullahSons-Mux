@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         {/* ---------------------------------1st box ------------------------------ */}
         <div className=''>
-            <p className='text-[2rem] pl-12 text-red-600 font-semibold '>Services</p> 
+            <p className='text-[2rem] pl-12 text-[#760422] font-semibold '>Services</p> 
             <ul className="list-disc text-[1rem] text-white mt-5 pl-16 ">
                 <li className='hover:text-red-500 cursor-pointer'>Rubber O-Ring</li>
                 <li className='hover:text-red-500 cursor-pointer'>Oil Seals</li>
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
         {/* ----------------------------------2nd list ----------------------------- */}
         <div className=''>
-            <p className='text-[2rem] text-red-600 font-semibold pl-12'>Explore Link</p> 
+            <p className='text-[2rem] text-[#760422] font-semibold pl-12'>Explore Link</p> 
             <ul className="list-disc text-[1rem] text-white mt-5 pl-16">
                 <li onClick={()=>{navigate("OverView")}} className='hover:text-red-500 cursor-pointer'>Comapny Overview</li>
                 <li onClick={()=>{navigate("Services")}} className='hover:text-red-500 cursor-pointer'>Services</li>
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
         {/* ----------------------------------------3rd list---------------------------------- */}
         <div className=''>
-            <p className='text-[2rem] text-red-600 font-semibold pl-12'>Our Branch</p> 
+            <p className='text-[2rem] text-[#760422] font-semibold pl-12'>Our Branch</p> 
             <ul className="list-disc text-[1rem] text-white mt-5 pl-16">
                 <li className='hover:text-red-500 cursor-pointer'>Head Office: 5-A , Saddique Center</li>
                 <p className='hover:text-red-500 cursor-pointer'> Akbar Road, Chowk Shaheedan , Multan</p>
