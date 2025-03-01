@@ -21,7 +21,7 @@ export default function Slider() {
     //   ----------------------------------------------------------------------------------
 
   return (
-    <div className='mt-4'>
+    <div className='lg:mt-4 mt-8'>
     <div className='object-cover mx-6'>
     <img src={images[selected]} alt="Slider images" className='lg:h-[100vh] w-[100vw]    '/>
     </div>
